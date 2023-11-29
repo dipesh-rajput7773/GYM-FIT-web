@@ -106,7 +106,7 @@ window.addEventListener('load', rightJS.init);
 var swiper = new Swiper(".oppo-mySwiper", {
 
     centeredSlides: false,
-    spaceBetween: 20,
+    
     slidesPerView: 3.5,
     pagination: {
         el: ".swiper-pagination",
@@ -124,7 +124,7 @@ var swiper = new Swiper(".oppo-mySwiper", {
 var swiper = new Swiper(".mySwiper", {
 
     centeredSlides: false,
-    spaceBetween: 20,
+    
     slidesPerView: 3.5,
     pagination: {
         el: ".swiper-pagination",
@@ -134,7 +134,7 @@ var swiper = new Swiper(".mySwiper", {
 
     autoplay: {
 
-        delay: 9000,
+        delay: 2000,
     },
 });
 

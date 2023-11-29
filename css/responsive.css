@@ -386,6 +386,9 @@
         object-fit: cover;
         border-radius: 12px;
     }
+    .swiper-slide {
+        margin-right: 15px ;
+    }
 
 }
 
@@ -568,5 +571,19 @@
 
    .about-content svg {
         height: 16px;
+    }
+
+    .about-section p {
+        
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .about-section h2 {
+        
+        letter-spacing: 5px;
+    }
+    .swiper-slide {
+        margin-right: 5px ;
     }
 }

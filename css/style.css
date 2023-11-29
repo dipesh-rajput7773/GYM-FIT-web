@@ -250,6 +250,10 @@ button.btn.btn-costum {
     width: 60%;
 }
 
+.swiper-slide {
+    margin-right: 25px ;
+}
+
 .swiper-slide:nth-child(2n) {
     width: 40%;
 }
