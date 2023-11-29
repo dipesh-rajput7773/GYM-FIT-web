@@ -1,3 +1,5 @@
+/*Slider-Banner*/
+
 $('#banner').owlCarousel({
     loop: true,
     margin: 10,
@@ -18,7 +20,10 @@ $('#banner').owlCarousel({
     }
 })
 
+/*Slider-Banner*/
 
+
+/*Review-Slider*/
 $('#review').owlCarousel({
     loop: true,
     margin: 10,
@@ -37,9 +42,9 @@ $('#review').owlCarousel({
         }
     }
 })
+/*Review-Slider*/
 
-
-
+/*testimonial-Slider*/
 $('#testimonial').owlCarousel({
     loop: true,
     margin: 10,
@@ -60,7 +65,7 @@ $('#testimonial').owlCarousel({
         }
     }
 })
-
+/*testimonial-Slider*/
 
 
 
@@ -80,12 +85,10 @@ var rightJS = {
         rightJS.loop();
     },
     loop: function () {
-        // Adjust the speed by changing the following line
-        var speed = 3; // Change this value to increase or decrease speed
-
+        var speed = 3;
         for (var i = 0; i < rightJS.Tags.length; i++) {
             var x = parseFloat(rightJS.Tags[i].style.right);
-            x += speed; // Increment by the speed variable
+            x += speed;
             var W = rightJS.Tags[i].parentElement.offsetWidth;
             var w = rightJS.Tags[i].offsetWidth;
             if ((x / 100) * W > w) x = -W;
@@ -102,43 +105,56 @@ window.addEventListener('load', rightJS.init);
 
 
 
+/*Gallery-slider*/
+
 
 var swiper = new Swiper(".oppo-mySwiper", {
-
     centeredSlides: false,
-    
     slidesPerView: 3.5,
+    loop: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
-    loop: true, // Enable loop
-    // direction: '',
     autoplay: {
         reverseDirection: true,
-        delay: 2000, // Autoplay delay in milliseconds
+        delay: 2000, 
     },
+  breakpoints: {
+    340: {
+      slidesPerView: 2.5,
+    },
+    1024: {
+      slidesPerView: 3.5,
+    }
+  },
 });
 
 
 var swiper = new Swiper(".mySwiper", {
-
-    centeredSlides: false,
-    
+    centeredSlides: true ,
     slidesPerView: 3.5,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        340: {
+          slidesPerView: 2.5,
+        },
+        1024: {
+          slidesPerView: 3.5,
+        }
+      },
     loop: true,
-
     autoplay: {
 
         delay: 2000,
     },
+
 });
 
-
+/*Gallery-slider*/
 
 
 

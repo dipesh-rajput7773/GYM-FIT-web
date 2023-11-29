@@ -491,15 +491,14 @@
     }
 
     .rightgymfit {
-    
-        left: -30px;
+        left: -39px;
         top: 12%;
     }
 
     .leftgymfit {
-       
         right: -50px;
-        bottom: 45%;
+        bottom: 56%;
+        font-size: 35px;
     }
 
     .main-text.text-center {
@@ -508,10 +507,10 @@
     }
 
     .main-text span {
-        font-size: 60px;
+        font-size: 50px;
     }
     .main-text .fit {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .center-img img {
@@ -591,5 +590,24 @@
     }
     .oppo-mySwiper {
         margin-bottom: 0.2rem;
+    }
+    .grid-section {
+       
+        gap: 0px;
+      
+    }
+    .name-tstm {
+        font-size: 10px;
+    }
+    #testimonial .owl-nav button.owl-prev {
+      
+        left: -8%;
+       
+    }
+
+    #testimonial .owl-nav button.owl-next {
+       
+        left: 28px;
+    
     }
 }
