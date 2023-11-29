@@ -30,7 +30,7 @@ $('#review').owlCarousel({
             items: 2
         },
         600: {
-            items: 2
+            items: 3
         },
         1000: {
             items: 4.5
@@ -106,7 +106,7 @@ window.addEventListener('load', rightJS.init);
 var swiper = new Swiper(".oppo-mySwiper", {
 
     centeredSlides: false,
-    spaceBetween: 30,
+    spaceBetween: 20,
     slidesPerView: 3.5,
     pagination: {
         el: ".swiper-pagination",
@@ -124,17 +124,17 @@ var swiper = new Swiper(".oppo-mySwiper", {
 var swiper = new Swiper(".mySwiper", {
 
     centeredSlides: false,
-    spaceBetween: 30,
+    spaceBetween: 20,
     slidesPerView: 3.5,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
-    loop: true, // Enable loop
-    // direction: '',
+    loop: true,
+
     autoplay: {
 
-        delay: 2000, // Autoplay delay in milliseconds
+        delay: 9000,
     },
 });
 

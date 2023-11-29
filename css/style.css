@@ -16,6 +16,10 @@ ul li {
     padding: 0;
 }
 
+ol, ul {
+    padding-left: 0rem;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -29,10 +33,6 @@ ul li {
 
 }
 
-.navbar-expand-lg .navbar-nav {
-    flex-direction: row;
-    column-gap: 50px !important;
-}
 
 .bg-dark {
     background-color: #00000080 !important;
@@ -86,6 +86,14 @@ button.btn.btn-costum {
     height: 92px;
 }
 
+.custum-d{
+    display: none;
+}
+
+.responsive-toggle{
+    display: flex;
+    column-gap: 10px;
+}
 .header-section {
     position: absolute;
     top: 0;
@@ -734,7 +742,7 @@ footer {
 
 .marque-section {
     position: relative;
-
+    z-index: 9999;
     padding: 0px 5px;
     background: #F8931F;
   
@@ -763,6 +771,9 @@ footer {
     font-weight: 400;
     line-height: normal;
 }
+
+
+
 
 
 
