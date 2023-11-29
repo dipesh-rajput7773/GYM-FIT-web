@@ -389,6 +389,9 @@
     .swiper-slide {
         margin-right: 15px ;
     }
+    .oppo-mySwiper {
+        margin-bottom: 0.5rem;
+    }
 
 }
 
@@ -585,5 +588,8 @@
     }
     .swiper-slide {
         margin-right: 2px ;
+    }
+    .oppo-mySwiper {
+        margin-bottom: 0.2rem;
     }
 }
